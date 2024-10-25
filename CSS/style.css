@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "SunFlowers";
+    src: url(/Fonts/CampanaScript_PERSONAL_USE_ONLY.otf) ;
+    font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    /* text-decoration: underline; */
+    color: #31511E;
+    font-family: "SunFlowers", sans-serif;
+    font-size: 100px;
+    letter-spacing: 5px;
+   margin-top: -30px;
+   margin-bottom: -5px;
+}
+
+body{
+    background-color: #F6FCDF;
+}
+
+menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    font-family: "SunFlowers", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #31511E;
+    font-size: 50px;
+}
